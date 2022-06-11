@@ -2,11 +2,17 @@
 //? == Home ==
 
 .home {
+	margin-bottom: 146px;
 
-	&__container {}
+	&__container {
+		padding-top: 18px;
+		padding-bottom: 50px;
+
+		background: url('../img/home/home__bg.svg') right 74px top 0 / contain no-repeat;
+	}
 
 	&__suptitle {
-		margin-bottom: 30px;
+		margin-bottom: 32px;
 
 		&::before {
 			content: '';
@@ -20,9 +26,17 @@
 		}
 	}
 
-	&__title {}
+	&__title {
+		max-width: 600px;
 
-	&__text {}
+		margin-bottom: 30px;
+	}
+
+	&__text {
+		max-width: 540px;
+
+		margin-bottom: 50px;
+	}
 
 	&__link {}
 }
