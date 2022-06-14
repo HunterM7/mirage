@@ -2,6 +2,7 @@
 //? == Services ==
 
 .services {
+	margin-bottom: 180px;
 
 	&__container {
 		text-align: center;
@@ -20,6 +21,8 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: start;
+
+		min-height: 360px;
 	}
 
 	&__card {}
